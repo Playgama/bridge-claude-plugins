@@ -5,13 +5,12 @@
     },
     "metadata": {
         "description": "Collection of Claude Code plugins for Playgama Bridge",
-        "version": "1.0.0",
-        "pluginRoot": "./plugins"
+        "version": "1.0.0"
     },
     "plugins": [
         {
             "name": "playgama-bridge",
-            "source": "./playgama-bridge"
+            "source": "./plugins/playgama-bridge"
         }
     ]
 }
