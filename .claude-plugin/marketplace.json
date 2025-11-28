@@ -1,0 +1,17 @@
+{
+    "name": "playgama-bridge-claude-plugins",
+    "owner": {
+        "name": "Playgama"
+    },
+    "metadata": {
+        "description": "Collection of Claude Code plugins for Playgama Bridge",
+        "version": "1.0.0",
+        "pluginRoot": "./plugins"
+    },
+    "plugins": [
+        {
+            "name": "playgama-bridge",
+            "path": "./plugins/playgama-bridge"
+        }
+    ]
+}
