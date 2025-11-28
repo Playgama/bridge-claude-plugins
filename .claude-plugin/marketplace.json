@@ -11,7 +11,7 @@
     "plugins": [
         {
             "name": "playgama-bridge",
-            "path": "./plugins/playgama-bridge"
+            "source": "playgama-bridge"
         }
     ]
 }
