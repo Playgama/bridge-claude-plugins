@@ -38,15 +38,6 @@ After game is fully loaded and ready for player interaction:
 bridge.platform.sendMessage('game_ready')
 ```
 
-Other messages:
-```javascript
-bridge.platform.sendMessage('in_game_loading_started')
-bridge.platform.sendMessage('in_game_loading_stopped')
-bridge.platform.sendMessage('gameplay_started')
-bridge.platform.sendMessage('gameplay_stopped')
-bridge.platform.sendMessage('player_got_achievement')
-```
-
 ## Device
 
 ```javascript
@@ -72,6 +63,16 @@ bridge.platform.payload
 
 // Server time (UTC milliseconds)
 bridge.platform.getServerTime().then(result => console.log(result))
+```
+
+## Platform Messages
+
+```javascript
+bridge.platform.sendMessage('in_game_loading_started')
+bridge.platform.sendMessage('in_game_loading_stopped')
+bridge.platform.sendMessage('gameplay_started')
+bridge.platform.sendMessage('gameplay_stopped')
+bridge.platform.sendMessage('player_got_achievement')
 ```
 
 ## Player
@@ -122,7 +123,7 @@ bridge.platform.on(bridge.EVENT_NAME.AUDIO_STATE_CHANGED, isEnabled => {
 
 // Pause state
 bridge.platform.on(bridge.EVENT_NAME.PAUSE_STATE_CHANGED, isPaused => {
-    // Pause/unpause game
+    // Pause/resume game
 })
 ```
 

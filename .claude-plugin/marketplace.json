@@ -19,6 +19,10 @@
         {
             "name": "playgama-bridge-godot",
             "source": "./plugins/playgama-bridge-godot"
+        },
+        {
+            "name": "playgama-bridge-defold",
+            "source": "./plugins/playgama-bridge-defold"
         }
     ]
 }

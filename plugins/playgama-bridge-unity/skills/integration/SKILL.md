@@ -14,6 +14,10 @@ Playgama Bridge is a cross-platform SDK for publishing Unity WebGL games across 
 3. Enter: `https://github.com/playgama/bridge-unity.git`
 4. Click "Add"
 
+## WebGL Export
+
+When building for WebGL, select the appropriate index template provided by the SDK to ensure proper initialization.
+
 ## Initialization
 
 The SDK initializes automatically. Access all modules through the static `Bridge` class:
@@ -88,7 +92,7 @@ Bridge.platform.audioStateChanged += (bool isEnabled) =>
 // Pause state changed event
 Bridge.platform.pauseStateChanged += (bool isPaused) =>
 {
-    // Pause/unpause game
+    // Pause/resume game
     Time.timeScale = isPaused ? 0f : 1f;
 };
 ```

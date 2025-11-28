@@ -1,0 +1,9 @@
+{
+    "name": "playgama-bridge-defold",
+    "description": "Playgama Bridge SDK integration helper for Defold games",
+    "version": "1.26.1",
+    "author": {
+        "name": "Playgama"
+    },
+    "keywords": ["playgama", "defold", "lua", "html5", "games", "sdk"]
+}
