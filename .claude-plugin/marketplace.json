@@ -11,6 +11,10 @@
         {
             "name": "playgama-bridge",
             "source": "./plugins/playgama-bridge"
+        },
+        {
+            "name": "playgama-bridge-unity",
+            "source": "./plugins/playgama-bridge-unity"
         }
     ]
 }

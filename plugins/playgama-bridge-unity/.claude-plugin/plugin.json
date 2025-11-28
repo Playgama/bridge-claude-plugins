@@ -1,0 +1,9 @@
+{
+    "name": "playgama-bridge-unity",
+    "description": "Playgama Bridge SDK integration helper for Unity games",
+    "version": "1.26.1",
+    "author": {
+        "name": "Playgama"
+    },
+    "keywords": ["playgama", "unity", "csharp", "webgl", "games", "sdk"]
+}
