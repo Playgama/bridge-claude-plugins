@@ -1,0 +1,9 @@
+{
+    "name": "playgama-bridge-godot",
+    "description": "Playgama Bridge SDK integration helper for Godot games",
+    "version": "1.26.1",
+    "author": {
+        "name": "Playgama"
+    },
+    "keywords": ["playgama", "godot", "gdscript", "html5", "games", "sdk"]
+}

@@ -38,6 +38,15 @@ After game is fully loaded and ready for player interaction:
 bridge.platform.sendMessage('game_ready')
 ```
 
+Other messages:
+```javascript
+bridge.platform.sendMessage('in_game_loading_started')
+bridge.platform.sendMessage('in_game_loading_stopped')
+bridge.platform.sendMessage('gameplay_started')
+bridge.platform.sendMessage('gameplay_stopped')
+bridge.platform.sendMessage('player_got_achievement')
+```
+
 ## Device
 
 ```javascript

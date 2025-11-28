@@ -15,6 +15,10 @@
         {
             "name": "playgama-bridge-unity",
             "source": "./plugins/playgama-bridge-unity"
+        },
+        {
+            "name": "playgama-bridge-godot",
+            "source": "./plugins/playgama-bridge-godot"
         }
     ]
 }

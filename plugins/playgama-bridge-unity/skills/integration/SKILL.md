@@ -72,6 +72,11 @@ Bridge.platform.GetServerTime((DateTime? serverTime) =>
 
 // Send message to platform
 Bridge.platform.SendMessage(PlatformMessage.GameReady);
+Bridge.platform.SendMessage(PlatformMessage.InGameLoadingStarted);
+Bridge.platform.SendMessage(PlatformMessage.InGameLoadingStopped);
+Bridge.platform.SendMessage(PlatformMessage.GameplayStarted);
+Bridge.platform.SendMessage(PlatformMessage.GameplayStopped);
+Bridge.platform.SendMessage(PlatformMessage.PlayerGotAchievement);
 
 // Audio state changed event
 Bridge.platform.audioStateChanged += (bool isEnabled) =>
