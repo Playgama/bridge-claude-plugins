@@ -1,7 +1,7 @@
 {
     "name": "playgama-bridge",
     "description": "Playgama Bridge SDK integration helper for JavaScript/TypeScript games",
-    "version": "1.26.1",
+    "version": "1.27.0",
     "author": {
         "name": "Playgama"
     },

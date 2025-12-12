@@ -5,7 +5,7 @@ description: Use this skill when working with Playgama Bridge SDK for HTML5 game
 
 # Playgama Bridge SDK Integration
 
-Playgama Bridge is a cross-platform SDK for publishing HTML5 games across 20+ platforms including Playgama, YouTube, Yandex Games, Crazy Games, Poki, Facebook, Telegram, and more.
+Playgama Bridge is a cross-platform SDK for publishing HTML5 games across 20+ platforms including Playgama, YouTube, Yandex Games, Crazy Games, Poki, Facebook, Telegram, Xiaomi, and more.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Add the SDK script to the HTML `<head>`:
 CDN options:
 - `https://bridge.playgama.com/v1/stable/playgama-bridge.js` - Recommended (latest v1.x.x)
 - `https://bridge.playgama.com/latest/playgama-bridge.js` - Bleeding edge
-- `https://bridge.playgama.com/v1.26.0/playgama-bridge.js` - Specific version
+- `https://bridge.playgama.com/v1.27.0/playgama-bridge.js` - Specific version
 
 ## Initialization
 

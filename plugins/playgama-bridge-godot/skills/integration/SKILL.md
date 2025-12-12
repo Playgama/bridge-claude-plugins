@@ -5,7 +5,7 @@ description: Use this skill when working with Playgama Bridge SDK for Godot game
 
 # Playgama Bridge SDK Integration for Godot
 
-Playgama Bridge is a cross-platform SDK for publishing Godot HTML5 games across 20+ platforms including Playgama, YouTube, Yandex Games, Crazy Games, Poki, Facebook, Telegram, and more.
+Playgama Bridge is a cross-platform SDK for publishing Godot HTML5 games across 20+ platforms including Playgama, YouTube, Yandex Games, Crazy Games, Poki, Facebook, Telegram, Xiaomi, and more.
 
 ## Installation
 
